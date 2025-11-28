@@ -1,0 +1,96 @@
+# -----------------------------
+# 📌 Global Ignored Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.pid
+*.seed
+*.pem
+*.log.*
+
+# -----------------------------
+# 📌 Environment Secrets
+# -----------------------------
+.env
+.env.local
+.env.*.local
+
+# -----------------------------
+# 📌 Node + Backend
+# -----------------------------
+node_modules/
+dist/
+build/
+uploads/
+temp/
+cache/
+coverage/
+logs/
+.nyc_output/
+package-lock.json
+
+# MongoDB / Mongoose related
+*.lock
+dump/
+*.bson
+*.ns
+
+# Express temporary files
+*.tmp
+
+# -----------------------------
+# 📌 Frontend (React + Vite)
+# -----------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.eslintcache
+
+# Vite local cache
+.vite/
+vite.svg
+
+# -----------------------------
+# 📌 Backend (Node)
+# -----------------------------
+backend/node_modules/
+backend/dist/
+backend/.env
+backend/.cache
+
+# -----------------------------
+# 📌 IDE / Editors
+# -----------------------------
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# IntelliJ / WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.springBeans
+
+# -----------------------------
+# 📌 OS Generated Files
+# -----------------------------
+.DS_Store
+*.swp
+*.swo
+*.tmp
+Thumbs.db
+
+
