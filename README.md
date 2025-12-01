@@ -134,8 +134,7 @@ POST /api/gemini/generate
 ---
 
 ## 🖼️ Project Screenshot  
-(Replace this with your actual image path)
-![Screenshot](./screenshot.png)
+![Chat UI](./ai-chat.png)
 
 ---
 
